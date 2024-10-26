@@ -47,3 +47,12 @@ centering inside the main tag
 getting image from dribbble or awwwards
 form with input for search
 and tasks
+we have 2 different tasks, (one is completed) and the other one is not completed
+
+---
+
+6. Form
+
+prevent the refresh on form submit using event.preventDefault()
+inputEl.value to get the value
+condition for empty value
