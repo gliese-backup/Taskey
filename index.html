@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="lemonade">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -31,13 +31,35 @@
       MARK: Content
     -->
     <main class="flex justify-center items-center min-h-screen">
-      <div class="card bg-base-100 w-60 sm:w-72 md:w-80 shadow-2xl">
+      <div class="card w-60 sm:w-72 md:w-80 shadow-2xl mb-10">
         <figure>
           <img src="pattern.png" alt="Pattern" />
         </figure>
         <div class="card-body">
           <!-- Task Input -->
+          <form>
+            <input
+              type="text"
+              placeholder="Add your task"
+              class="input input-bordered w-full max-w-xs"
+            />
+          </form>
+
           <!-- Task List -->
+          <div class="form-control">
+            <label class="label cursor-pointer">
+              <span class="label-text">Remember me</span>
+              <input type="checkbox" class="checkbox checkbox-primary" />
+            </label>
+            <label class="label cursor-pointer bg-lime-100 rounded">
+              <span class="label-text">Remember me</span>
+              <input
+                type="checkbox"
+                checked="checked"
+                class="checkbox checkbox-primary"
+              />
+            </label>
+          </div>
         </div>
       </div>
     </main>

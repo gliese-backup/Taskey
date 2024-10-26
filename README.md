@@ -31,3 +31,19 @@ install tailwind intellisence extension
 
 `pnpm add -D daisyui@latest` to install it as a dev dependency
 and change plugins section in `tailwind.config.js`
+
+---
+
+4. Create navbar
+
+tabler icons cdn for web font
+`ti ti-brand-github` instead of using svg
+
+---
+
+5. Card component
+
+centering inside the main tag
+getting image from dribbble or awwwards
+form with input for search
+and tasks
